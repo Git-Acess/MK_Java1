@@ -1,0 +1,440 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-07T18:12:29.428Z",
+        "line": 2,
+        "name": "This is login Scenario in orange with DT head",
+        "description": "",
+        "id": "this-is-the-login-feature-with-providing-dt-head;this-is-login-scenario-in-orange-with-dt-head",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7601595500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "visiting to orange site",
+            "match": {
+              "location": "stepDefenition.DataTableWithHeader.visiting_to_orange_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 777453600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "executing with values",
+            "match": {
+              "location": "stepDefenition.DataTableWithHeader.executing_with_values(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1451468700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click submitButton at end",
+            "match": {
+              "location": "stepDefenition.DataTableWithHeader.click_submitButton_at_end()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "This is the login feature with providing DT head",
+    "description": "",
+    "id": "this-is-the-login-feature-with-providing-dt-head",
+    "keyword": "Feature",
+    "uri": "file:FeaturesFile/DTwithHeader.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-07T18:12:39.403Z",
+        "line": 2,
+        "name": "This is login Scenario in orangeHRM without dataheader",
+        "description": "",
+        "id": "this-is-the-login-feature-with-without-header;this-is-login-scenario-in-orangehrm-without-dataheader",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7345396300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "navigating to OrangeHRM site",
+            "match": {
+              "location": "stepDefenition.DataTwithoutHead.navigating_to_OrangeHRM_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.datatable.UndefinedDataTableTypeException: Can\u0027t convert DataTable to List\u003cjava.lang.String\u003e.\nPlease review these problems:\n\n - There was a table cell transformer for java.lang.String but the table was too wide to use it.\n   Please reduce the table width to use this converter.\n\n - There was no table entry or table row transformer registered for java.lang.String.\n   Please consider registering a table entry or row transformer.\n\nNote: Usually solving one is enough\r\n\tat io.cucumber.datatable.UndefinedDataTableTypeException.listNoConverterDefined(UndefinedDataTableTypeException.java:110)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.toList(DataTableTypeRegistryTableConverter.java:136)\r\n\tat io.cucumber.datatable.DataTable.asList(DataTable.java:181)\r\n\tat stepDefenition.DataTwithoutHead.enter_the_below_credential(DataTwithoutHead.java:33)\r\n\tat ✽.enter the below credential(file:///C:/Users/pravi/eclipse-workspace/MukeshCucu/MavenwithCucumber/FeaturesFile/DataTableWithoutHeader.feature:4)\r\n",
+              "duration": 10969300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "enter the below credential",
+            "match": {
+              "location": "stepDefenition.DataTwithoutHead.enter_the_below_credential(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click submit button",
+            "match": {
+              "location": "stepDefenition.DataTwithoutHead.click_submit_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "This is the login feature with without header",
+    "description": "",
+    "id": "this-is-the-login-feature-with-without-header",
+    "keyword": "Feature",
+    "uri": "file:FeaturesFile/DataTableWithoutHeader.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-07T18:12:47.043Z",
+        "line": 3,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4933901800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "stepDefenition.GoogleSteps.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I complete action",
+            "match": {
+              "location": "stepDefenition.GoogleSteps.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "some other action",
+            "match": {
+              "location": "stepDefenition.GoogleSteps.some_other_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I validate the out",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:FeaturesFile/GFeature.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-07T18:12:52.014Z",
+        "line": 2,
+        "name": "Google search scenario",
+        "description": "",
+        "id": "this-is-to-check-google-search-operation;google-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3852076700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is enteing the url \"http://www.google.co.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.google.co.in\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefenition.GoogleSearch.user_is_enteing_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435069000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is providing the search \"Mukesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mukesh\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefenition.GoogleSearch.user_is_providing_the_search(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3553255100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "search result are visible to user",
+            "match": {
+              "location": "stepDefenition.GoogleSearch.search_result_are_visible_to_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 940511000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "taking the screenshot of the search result",
+            "match": {
+              "location": "stepDefenition.GoogleSearch.taking_the_screenshot_of_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is to check google search operation",
+    "description": "",
+    "id": "this-is-to-check-google-search-operation",
+    "keyword": "Feature",
+    "uri": "file:FeaturesFile/Google.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-07T18:13:00.869Z",
+        "line": 2,
+        "name": "This is login Scenario in orangeHRM with data",
+        "description": "",
+        "id": "this-is-the-login-feature-with-data;this-is-login-scenario-in-orangehrm-with-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12218643100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "navigating to OrangeHRM",
+            "match": {
+              "location": "stepDefenition.LoginOrangeWithData.navigating_to_OrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1414697900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "providing the credintails \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefenition.LoginOrangeWithData.providing_the_credintails_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1847262600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicking the submit button",
+            "match": {
+              "location": "stepDefenition.LoginOrangeWithData.clicking_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124597300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verifying the login page",
+            "match": {
+              "location": "stepDefenition.LoginOrangeWithData.verifying_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is the login feature with data",
+    "description": "",
+    "id": "this-is-the-login-feature-with-data",
+    "keyword": "Feature",
+    "uri": "file:FeaturesFile/LoginOrangeHRM.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-07T18:13:16.488Z",
+        "line": 2,
+        "name": "This is the login scenario",
+        "description": "",
+        "id": "this-is-the-login-feature-for-orangehrm;this-is-the-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20001470800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefenition.LoginHRM.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1431328900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user enter the login certindial username and password",
+            "match": {
+              "location": "stepDefenition.LoginHRM.The_user_enter_the_login_certindial_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138212600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click login Button",
+            "match": {
+              "location": "stepDefenition.LoginHRM.click_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3361640600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should navigate to home page",
+            "match": {
+              "location": "stepDefenition.LoginHRM.user_should_navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is the login feature for OrangeHRM",
+    "description": "",
+    "id": "this-is-the-login-feature-for-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:FeaturesFile/Orange.feature",
+    "tags": []
+  }
+]
